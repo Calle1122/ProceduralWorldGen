@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52450e0dcdf8e364abee57d9fe574da9, type: 3}
+  m_Name: UpDown
+  m_EditorClassIdentifier: 
+  Name: UpDown
+  Prefab: {fileID: 946808371093645782, guid: 37e18e48940f421439510bc89e140aa6, type: 3}
+  Top:
+    CompatibleNodes:
+    - {fileID: 11400000}
+    - {fileID: 11400000, guid: 3a085349541a6f64e91d39caf7cfa9b4, type: 2}
+    - {fileID: 11400000, guid: 4f3bafed0eb4da543a23079032392072, type: 2}
+  Bottom:
+    CompatibleNodes:
+    - {fileID: 11400000}
+    - {fileID: 11400000, guid: 275a46b8afc6a3541b8113da329543c5, type: 2}
+    - {fileID: 11400000, guid: 58403cdb4b8989d43a28b7ab0705cd48, type: 2}
+  Left:
+    CompatibleNodes:
+    - {fileID: 11400000, guid: 275a46b8afc6a3541b8113da329543c5, type: 2}
+    - {fileID: 11400000}
+    - {fileID: 11400000, guid: 4f3bafed0eb4da543a23079032392072, type: 2}
+  Right:
+    CompatibleNodes:
+    - {fileID: 11400000, guid: 58403cdb4b8989d43a28b7ab0705cd48, type: 2}
+    - {fileID: 11400000}
+    - {fileID: 11400000, guid: 3a085349541a6f64e91d39caf7cfa9b4, type: 2}
